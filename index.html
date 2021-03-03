@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container my-5 mx-auto">
+      <h1 class="text-muted text-center my-4">Hava Durumu</h1>
+    </div>
+    <div class="container">
+      <form class="konum-değiştir my-4 text-center text-muted">
+        <label for="sehir">Hava Durumu için konum giriniz</label>
+        <input class="form-control p-2" type="text" name="sehir" />
+      </form>
+      <div class="card shadow-lg rounded d-none">
+      <img class="zaman card-img-top" src="https://via.placeholder.com/400x300">
+      <div class="icon bg-light mx-auto text-center">
+         <img src="" alt=""/>
+      </div>
+      <div class="text-muted text-uppercase text-center detay">
+      <h1 class="my-3">Şehİr İsmİ</h1>
+      <div class="my-3">Hava Durumu</div>
+      <div class="display-4 my-4">
+        <span>Sıcaklık</span>
+        <span>&deg;C</span>
+      </div>
+      </div>
+      </div>
+    </div>
+    <script src="tahmin.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
